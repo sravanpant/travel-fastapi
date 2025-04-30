@@ -73,7 +73,7 @@ SQLALCHEMY_DATABASE_URL = "postgresql://travel_user:your_password@localhost/trav
 
 1. Initialize the database:
 ```bash
-python reset_db.py
+python create_tables.py
 ```
 
 2. Seed the database with sample data:
